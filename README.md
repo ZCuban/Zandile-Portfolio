@@ -1,48 +1,150 @@
 # Zandile-Portfolio
 Personal Virtual CV — a responsive portfolio site showcasing my BSc IT coursework, projects.
-My personal portfolio website, built as part of my post-graduation profile development. It works as a living CV — an overview of my education, skills, and academic projects as a final-year BSc Information Technology student at North-West University.
+# Zandile Portfolio
 
-Live site: https://<your-username>.github.io/zandile-portfolio/ (update once deployed)
-Overview
-The site is a single-page portfolio with the following sections:
+A responsive personal portfolio website showcasing my education, technical skills, academic projects, and certifications as a final-year BSc Information Technology student at North-West University.
 
-Hero — an animated network-topology diagram summarising key stats (grad year, average, certifications, projects), a nod to the network simulation work in my coursework
-About — background, focus areas, and quick facts
-Skills — grouped by programming languages, cybersecurity, databases/mobile, and networking tools
-Projects — four academic builds, each linking to its own repository
-Certifications — cybersecurity certifications with issuer and date
-Experience — work and extracurricular involvement
-Contact — email, phone, and social links
-Tech stack
-HTML5 / CSS3 (no framework — hand-written grid layout, custom properties for theming)
-Vanilla JavaScript (SVG animateMotion for the topology diagram; no external JS libraries)
-Google Fonts: Space Grotesk (display), IBM Plex Sans (body), IBM Plex Mono (data/labels)
-Hosted on GitHub Pages
-Project structure
-.
+This portfolio serves as a living CV, highlighting my academic journey, practical experience, and professional development.
 
-├── index.html          # entire site — markup, styles, and script in one file
+---
 
-├── assets/
+## 🌐 Live Website
 
-│   └── Zandile-Cuban_Mayisela_Resume.pdf   # downloadable CV
+https://<your-username>.github.io/zandile-portfolio/
 
-└── README.md
-Running locally
-No build step required — it's a static file.
+> Replace `<your-username>` with your GitHub username after deploying the site.
 
+---
+
+# Overview
+
+The portfolio is a responsive single-page website containing the following sections:
+
+- **Hero** – Animated network-topology diagram displaying key information such as graduation year, average, certifications, and completed projects.
+- **About** – Personal background, career interests, and academic focus.
+- **Skills** – Technical skills grouped into programming languages, cybersecurity, databases, mobile development, and networking.
+- **Projects** – Featured academic projects with links to their individual GitHub repositories.
+- **Certifications** – Professional cybersecurity certifications with issuing organizations and completion dates.
+- **Experience** – Work experience, leadership, volunteering, and extracurricular activities.
+- **Contact** – Email address, phone number, location, and professional social media links.
+
+---
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- SVG Animation (animateMotion)
+- Google Fonts
+  - Space Grotesk
+  - IBM Plex Sans
+  - IBM Plex Mono
+- GitHub Pages
+
+---
+
+# Features
+
+- Fully responsive design
+- Clean and modern UI
+- Animated network topology hero section
+- Downloadable CV
+- Academic project showcase
+- Technical skills overview
+- Certification section
+- Contact information
+
+---
+
+# Project Structure
+
+```
+zandile-portfolio/
+│
+├── index.html
+├── README.md
+└── assets/
+    └── Zandile-Cuban_Mayisela_Resume.pdf
+```
+
+---
+
+# Running the Project Locally
+
+Clone the repository:
+
+```bash
 git clone https://github.com/<your-username>/zandile-portfolio.git
+```
 
+Navigate into the project folder:
+
+```bash
 cd zandile-portfolio
+```
 
-# open index.html directly in a browser, or serve it:
+Open **index.html** directly in your browser
 
+or start a local server:
+
+```bash
 python3 -m http.server 8000
+```
 
-Then visit http://localhost:8000.
-Deployment
-Deployed via GitHub Pages from the main branch root. See PORTFOLIO-SETUP.md for the full setup and placeholder checklist.
-Design notes
-The visual direction is grounded in my own coursework rather than a generic template: the hero's network-topology diagram mirrors the kind of layout I've built in Cisco Packet Tracer, and the monospace type used for skill tags and metadata nods to a technical/terminal aesthetic. Colour palette is a deep ink navy with a signal-blue accent (network/circuit inspired) and a restrained amber highlight for certifications.
-Contact
-📧 mbarlycuban@gmail.com 📍 Ivory Park, Midrand, Gauteng
+Open your browser and visit:
+
+```
+http://localhost:8000
+```
+
+---
+
+# Deployment
+
+This portfolio is deployed using **GitHub Pages** from the **main** branch.
+
+After pushing your code:
+
+1. Go to your repository.
+2. Open **Settings**.
+3. Select **Pages**.
+4. Choose:
+   - Branch: **main**
+   - Folder: **/(root)**
+5. Save the changes.
+
+Your portfolio will be available at:
+
+```
+https://<your-username>.github.io/zandile-portfolio/
+```
+
+---
+
+# Design Inspiration
+
+The design reflects my academic background in networking and cybersecurity.
+
+Highlights include:
+
+- Network-topology inspired hero animation
+- Terminal-style typography for technical labels
+- Deep navy color palette
+- Signal blue accent colors
+- Amber highlights for certifications
+- Minimalist and professional layout
+
+---
+
+# Resume
+
+A downloadable PDF version of my resume is included in:
+
+```
+assets/Zandile-Cuban_Mayisela_Resume.pdf
+
+
+## License
+
+This project is intended for personal portfolio purposes. Feel free to use it as inspiration, but please do not copy the content directly.
