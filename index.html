@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zandile Cuban Mayisela — BSc IT Student</title>
+<meta name="description" content="Virtual CV of Zandile Cuban Mayisela, BSc Information Technology student — software development, cybersecurity, and network engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="nav-mark">ZCM<span>.</span>DEV</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certs">Certifications</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Available for grad opportunities · 2027</div>
+        <h1>Zandile Cuban<br>Mayisela</h1>
+        <p class="role">BSc <strong>Information Technology</strong> — North-West University</p>
+        <p class="lede">Final-year student building secure, end-to-end technology solutions — from authenticated mobile apps to normalised databases and simulated network infrastructure.</p>
+        <div class="btn-row">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="Zandile-Cuban_Mayisela_Resume.pdf" class="btn btn-ghost" download>Download CV</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="topo" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <!-- connecting lines -->
+          <line class="topo-line" x1="200" y1="200" x2="90" y2="90"/>
+          <line class="topo-line" x1="200" y1="200" x2="320" y2="80"/>
+          <line class="topo-line" x1="200" y1="200" x2="80" y2="300"/>
+          <line class="topo-line" x1="200" y1="200" x2="330" y2="310"/>
+          <line class="topo-line" x1="200" y1="200" x2="200" y2="30"/>
+
+          <!-- animated packets travelling along lines -->
+          <circle class="topo-packet" r="3">
+            <animateMotion dur="3s" repeatCount="indefinite" path="M200,200 L90,90"/>
+          </circle>
+          <circle class="topo-packet" r="3">
+            <animateMotion dur="4s" repeatCount="indefinite" path="M200,200 L320,80"/>
+          </circle>
+          <circle class="topo-packet" r="3">
+            <animateMotion dur="3.5s" repeatCount="indefinite" path="M200,200 L80,300"/>
+          </circle>
+          <circle class="topo-packet" r="3">
+            <animateMotion dur="4.5s" repeatCount="indefinite" path="M200,200 L330,310"/>
+          </circle>
+
+          <!-- center node: identity -->
+          <circle class="topo-node-ring" cx="200" cy="200" r="46"/>
+          <circle class="topo-node-fill amber" cx="200" cy="200" r="38"/>
+          <text x="200" y="196" text-anchor="middle" class="topo-node-label">B.Sc IT</text>
+          <text x="200" y="212" text-anchor="middle" class="topo-stat" style="font-size:14px;">2027</text>
+
+          <!-- node: GPA -->
+          <circle class="topo-node-fill" cx="90" cy="90" r="30"/>
+          <text x="90" y="86" text-anchor="middle" class="topo-stat" style="font-size:16px;">72%</text>
+          <text x="90" y="102" text-anchor="middle" class="topo-node-label">average</text>
+
+          <!-- node: certs -->
+          <circle class="topo-node-fill" cx="320" cy="80" r="30"/>
+          <text x="320" y="76" text-anchor="middle" class="topo-stat" style="font-size:16px;">4</text>
+          <text x="320" y="92" text-anchor="middle" class="topo-node-label">certs</text>
+
+          <!-- node: projects -->
+          <circle class="topo-node-fill" cx="80" cy="300" r="30"/>
+          <text x="80" y="296" text-anchor="middle" class="topo-stat" style="font-size:16px;">4</text>
+          <text x="80" y="312" text-anchor="middle" class="topo-node-label">projects</text>
+
+          <!-- node: languages -->
+          <circle class="topo-node-fill" cx="330" cy="310" r="30"/>
+          <text x="330" y="306" text-anchor="middle" class="topo-stat" style="font-size:16px;">4</text>
+          <text x="330" y="322" text-anchor="middle" class="topo-node-label">languages</text>
+
+          <!-- node: top -->
+          <circle class="topo-node-fill" cx="200" cy="30" r="22"/>
+          <text x="200" y="35" text-anchor="middle" class="topo-node-label" style="font-size:9px;">SECURE</text>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">01</span><h2>About</h2></div>
+      <div class="about-grid">
+        <div>
+          <p>I'm a final-year <strong>BSc Information Technology</strong> student at North-West University, graduating in 2027 with a cumulative average of 72%. My interests sit at the intersection of <strong>software development</strong>, <strong>database systems</strong>, and <strong>cybersecurity</strong> — I like building things that are not just functional, but secure and well-structured from the ground up.</p>
+          <p>That shows up across my project work: a mobile authentication app with proper password hashing and secure storage, a fully normalised relational database built from an ERD up, and simulated network topologies configured and troubleshot in Cisco Packet Tracer. I've backed that hands-on work with four cybersecurity certifications, including one from Cisco Networking Academy.</p>
+          <p>Outside coursework, I've supported walk-in customers as an IT assistant at a community internet café, helped organise a final-year student event, and competed in Geekulcha hackathons — where I've learned as much about working under pressure with a team as I have about the tech itself.</p>
+        </div>
+        <ul class="fact-list">
+          <li><span>Location</span><span>Ivory Park, Midrand, Gauteng</span></li>
+          <li><span>Institution</span><span>North-West University</span></li>
+          <li><span>Programme</span><span>BSc Information Technology</span></li>
+          <li><span>Expected</span><span>2027</span></li>
+          <li><span>Focus areas</span><span>Cybersecurity · Databases · Mobile</span></li>
+          <li><span>Email</span><span><a href="mailto:mbarlycuban@gmail.com" style="color:var(--signal)">mbarlycuban@gmail.com</a></span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">02</span><h2>Skills</h2></div>
+      <div class="skill-groups">
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C#</span><span class="chip">C++</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Cybersecurity</h3>
+          <div class="chip-row">
+            <span class="chip">Threat Identification</span><span class="chip">Network Security</span><span class="chip">Secure Authentication</span><span class="chip">Data Protection</span><span class="chip">Vulnerability Awareness</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Databases &amp; Mobile</h3>
+          <div class="chip-row">
+            <span class="chip">SQL</span><span class="chip">Oracle SQL Developer</span><span class="chip">SQLite</span><span class="chip">.NET MAUI</span><span class="chip">ERD Modelling</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Networking &amp; Tools</h3>
+          <div class="chip-row">
+            <span class="chip">Cisco Packet Tracer</span><span class="chip">Git / GitHub</span><span class="chip">OOP</span><span class="chip">File Handling</span><span class="chip">Memory Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">03</span><h2>Projects</h2></div>
+      <p class="sec-sub">Academic and self-directed builds — code and documentation available on GitHub.</p>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-year">2025</div>
+          <h3>MyAuthApp — Mobile Authentication</h3>
+          <p>Cross-platform mobile app with a full auth flow — registration, secure login, and password recovery — using BCrypt.Net password hashing against a local SQLite store.</p>
+          <div class="project-stack">
+            <span class="tag">.NET MAUI</span><span class="tag">C#</span><span class="tag">SQLite</span><span class="tag">BCrypt.Net</span>
+          </div>
+          <a class="project-link" href="#" data-repo-placeholder>View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-year">2025</div>
+          <h3>Rosemary Insurance Policy Database</h3>
+          <p>Fully normalised relational database for insurance client and policy data, designed from an ERD with primary/foreign key relationships to enforce referential integrity.</p>
+          <div class="project-stack">
+            <span class="tag">Oracle SQL Developer</span><span class="tag">ERD Design</span><span class="tag">SQL</span>
+          </div>
+          <a class="project-link" href="https://github.com/tea-eye-mars/RosemaryInsurance_Group21" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-year">2024</div>
+          <h3>Patient Management System</h3>
+          <p>C++ console application with full CRUD for patient records — smart pointers for safe memory management, plus file handling for persistent storage across sessions.</p>
+          <div class="project-stack">
+            <span class="tag">C++</span><span class="tag">OOP</span><span class="tag">unique_ptr</span><span class="tag">ifstream/ofstream</span>
+          </div>
+          <a class="project-link" href="#" data-repo-placeholder>View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-year">2026</div>
+          <h3>Computer Network Simulation</h3>
+          <p>Simulated network topologies in Cisco Packet Tracer — designed with routers, switches, and end devices; configured IP schemes and diagnosed connectivity faults.</p>
+          <div class="project-stack">
+            <span class="tag">Cisco Packet Tracer</span><span class="tag">Routing</span><span class="tag">IP Addressing</span>
+          </div>
+          <a class="project-link" href="#" data-repo-placeholder>View writeup →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certs">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">04</span><h2>Certifications</h2></div>
+      <div class="cert-row">
+        <div class="cert-card">
+          <h4>Introduction to Cybersecurity</h4>
+          <span class="mono">Cisco Networking Academy · Apr 2025</span>
+        </div>
+        <div class="cert-card">
+          <h4>Introduction to Cyber Security</h4>
+          <span class="mono">Simplilearn SkillUp · May 2025</span>
+        </div>
+        <div class="cert-card">
+          <h4>Understand Threats &amp; Prevent Attacks</h4>
+          <span class="mono">Alison, CPD Certified · 2025</span>
+        </div>
+        <div class="cert-card">
+          <h4>Network Security Management</h4>
+          <span class="mono">Chongqing Polytechnic Univ. · Dec 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">05</span><h2>Experience &amp; Involvement</h2></div>
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="mono">School Holidays</span>
+          <h3>Internet Café Technical Assistant</h3>
+          <ul>
+            <li>Provided hands-on IT support to customers, including internet access and troubleshooting.</li>
+            <li>Built customer service and communication skills in a fast-paced walk-in environment.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <span class="mono">2023</span>
+          <h3>Event Organiser — Final Year Student Event, North-West University</h3>
+          <ul>
+            <li>Volunteered in planning and coordination, managing logistics and on-the-day communication.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <span class="mono">2023 – 2024</span>
+          <h3>Geekulcha Participant</h3>
+          <ul>
+            <li>Collaborated in hackathon teams building tech solutions under time pressure.</li>
+            <li>Strengthened rapid prototyping and cross-functional teamwork.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer id="contact">
+    <div class="wrap">
+      <div class="contact-box">
+        <h2>Let's connect</h2>
+        <p>Open to graduate opportunities, internships, and conversations about software, databases, or network security.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:mbarlycuban@gmail.com">Email Me</a>
+          <a class="btn btn-ghost" href="tel:0678272049">067 827 2049</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/zandile-cuban-mayisela-5b133020b/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-ghost" href="https://github.com/ZCuban" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Zandile Cuban Mayisela</span>
+        <span><a href="https://github.com/ZCuban/Zandile-Portfolio" target="_blank" rel="noopener" style="color:var(--muted)">View Source on GitHub ↗</a></span>
+        <span>Ivory Park, Midrand, Gauteng</span>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
